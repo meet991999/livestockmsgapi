@@ -55,30 +55,3 @@ if diff_per > 0.0005:
             from_="+13132511766",
             to="+919429686999"
         )
-
-
-
-
-
-
-# response = requests.get(STOCK_ENDPOINT, params=para)
-# response.raise_for_status()
-# stock_data = response.json()
-# daily_stock = stock_data["Time Series (Daily)"]
-# closing_data_item = []
-# for data in daily_stock:
-#     closing_data = daily_stock[data]['4. close']
-#     closing_data_item.append(closing_data)
-# print(closing_data_item)
-#
-#
-# for num in range(len(closing_data_item)-1):
-#     if diff_per > 2:
-#         para={
-#             "qInTitle" : "RELIANCE",
-#             "apiKey" : "1f9d0c886aa044dc8aa56c62f60e4857"
-#         }
-#         response_from_news = requests.get(NEWS_ENDPOINT, params=para)
-#         print(response_from_news.json())
-
-
